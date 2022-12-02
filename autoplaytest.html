@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Audio & Video Autoplay Test</title>
+</head>
+<body style="background-color:black;">
+<center>
+<h3 style="font-weight:bold;color:white;">&darr; &nbsp; shitheads &nbsp; &darr;</h3><br>
+
+<video src="videos/catshib.mp4" id="vid1"controls loop autoplay></video>
+<figcaption style="color:white;">&uarr; &nbsp; Shithead wont autoplay from a file source &nbsp; &uarr;</figcaption>
+  <br><br>
+<video id="vid2" src="videos/thecatfromipanema.mp4" height="180" width="320" controls loop autoplay></video>
+<figcaption style="color:white;">&uarr; &nbsp; Shithead wont autoplay from a file source &nbsp; &uarr;</figcaption>
+
+<br><br><br><br>
+<a href="autoplaytest.html">reload</a> &nbsp; &nbsp; <a href="index.html">back home</a>
+</center>
+
+<script>
+  window.onload = function() {
+	var vid1 = document.getElementById("vid1");
+	var vid2 = document.getElementById("vid2");
+	vid1.volume = 0.6
+	vid2.volume = 0.4
+  };
+</script>
+</body>
+</html>
