@@ -1,0 +1,53 @@
+body {
+	background-image: repeating-linear-gradient(90deg, transparent, transparent 15px, #0F0F9A 15px, #0F0F9A 16px), repeating-linear-gradient(0deg, transparent, transparent 15px, #0F0F9A 15px, #0F0F9A 16px );
+	background-color: #0F5FBA;
+}
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#eriks {
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+#eriks, img {
+	border: 3px solid #0F0F9A;
+	background-color: #003ACA;
+}
+#erikScroll {
+	font-size: 40px;
+	color: #0F0F9A;
+	font-weight: bold;
+	width: 30%;
+	background-color: #003ACA;
+	border: 3px solid #0F0F9A;
+}
+nav {
+	color: #0F5FBA;
+	background-color: #0F0F9A;
+	font-weight: bold;
+	border: 3px solid #0F0F9A;
+}
+a:link {
+	color: #0F5FBA; 
+	text-decoration: none;
+}
+a:visited {
+	color: #0F5FBA;
+	text-decoration: none;
+}
+a:hover {
+	color: #0F5FBA;
+	text-decoration: underline;
+}
+figcaption{
+	color: #0F5FBA;
+	background-color: #0F0F9A;
+	font-weight: bold;
+}
