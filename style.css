@@ -1,0 +1,111 @@
+/********INDEX STYLE********/
+#wrapperINDX, #eriks{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#erikScroll { 
+    width: 30%; 
+	font-size: 2.5em;
+	font-weight: bold;
+}
+#eriks {padding: 0.5em 0.5em 0.5em 0.5em;}
+#htmlINDX nav, #eriks figcaption {font-weight: bold;}
+#htmlINDX a:link, #htmlINDX a:visited {text-decoration: none;}
+#htmlINDX a:hover {text-decoration: underline;}
+/***************************/
+/********INDEX COLOR********/
+#htmlINDX {
+	background-image: repeating-linear-gradient(90deg, transparent, transparent 14px, #0F0F9A 15px, #0F0F9A 16px);
+	background-color: #0F5FBA;
+}
+#eriks, #eriks img {
+	border: 3px solid #0F0F9A;
+	background-color: #003ACA;
+}
+#erikScroll {
+	color: #0F0F9A;
+	background-color: #003ACA;
+	border: 3px solid #0F0F9A;
+}
+#htmlINDX nav {
+	color: #0F5FBA;
+	background-color: #0F0F9A;
+	border: 3px solid #0F0F9A;
+}
+#htmlINDX figcaption{
+	color: #0F5FBA;
+	background-color: #0F0F9A;
+}
+#htmlINDX a:link {color: #0F5FBA;}
+#htmlINDX a:visited {color: #0F5FBA;}
+#htmlINDX a:hover {color: #0F5FBA;}
+/***************************/
+/********LIST STYLE*********/
+#wrapperLST {
+	padding-top: 8em;
+}
+#htmlLST body {
+	background-repeat: no-repeat;
+	padding-bottom: 100vh;
+}
+#hr1 {
+	height: 3px;
+	width: 50%;
+    border: none;
+}
+#knuckles {
+	padding-top: 1em;
+	font-size: 2em; 
+}
+#list {
+	font-size: 1em; 
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+#wrapperLST, #list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#intro {
+	font-weight: bold;
+	font-size:4em; 
+	text-align: center; 
+}
+#subIntro, #list {font-size: 2em;}
+#htmlLST a {font-size: 2em;}
+#htmlLST #subIntro {font-weight: bold;}
+/***************************/
+/********LIST COLOR*********/
+#htmlLST body {
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 15px, purple 15px, purple 16px), 
+					  repeating-linear-gradient(315deg, transparent, transparent 15px, purple 15px, purple 16px);
+	background-color: #A0A0AF;
+}
+#intro {
+	color:purple;
+	text-shadow: 2.5px 2.5px 0.25px black;
+}
+#hr1 {
+	box-shadow: 2.5px 2.5px 0.25px black;
+	background-color: purple;
+}
+#list {
+	background-color: purple;
+	color: #A0A0AF;
+	box-shadow: 2.5px 2.5px 0.25px black;
+}
+#htmlLST a {
+	text-shadow: 1px 1px 0.25px black;
+}
+#subIntro {
+	color:purple;
+	text-shadow: 1px 1px 0.25px black;
+}
+#htmlLST a:link {color: purple;}
+#htmlLST a:visited {color: purple;}
+#htmlLST a:hover {color: #0F5FBA;}
+/***************************/
+
