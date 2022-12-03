@@ -1,0 +1,87 @@
+/*********VARIABLES*********/
+:root {
+	--drkblu: #0F0F9A;
+	--blu: #003ACA;
+	--lghtblu: #0F5FBA;
+	--lghtprple: #A0A0AF;
+	--padall: 0.5em 0.5em 0.5em 0.5em;
+}
+/***************************/
+/******GLOBAL SELECTORS*****/
+[id*="wrapper"], #eriks {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+/***************************/
+/********INDEX STYLE********/
+#erikScroll { 
+    width: 30%; 
+	font-size: 2.5em;
+	font-weight: bold;
+}
+#eriks {padding: var(--padall);}
+#htmlINDX nav, #eriks figcaption {font-weight: bold;}
+#htmlINDX a:link, #htmlINDX a:visited {text-decoration: none;}
+#htmlINDX a:hover {text-decoration: underline;}
+/***************************/
+/********INDEX COLOR********/
+/*#0F0F9A is drkblu (stripes)
+  #003ACA is blu (#erik bg)
+  #0F5FBA is lghtblu (bg)*/
+#htmlINDX {
+	background-image: repeating-linear-gradient(90deg, transparent, transparent 14px, var(--drkblu) 15px, var(--drkblu) 16px);
+	background-color: var(--lghtblu);
+}
+#eriks, #erikScroll {background-color: var(--blu);}
+#erikScroll {color: var(--drkblu);}
+#htmlINDX nav, #erikScroll, #eriks, img {border: 3px solid var(--drkblu);}
+#htmlINDX figcaption, #htmlINDX nav {background-color: var(--drkblu);}
+#htmlINDX a:link, #htmlINDX a:visited, #htmlINDX a:hover, #htmlINDX figcaption, #htmlINDX nav {color: var(--lghtblu);}
+/***************************/
+/********LIST STYLE*********/
+#htmlLST body {
+	background-repeat: no-repeat;
+	padding-bottom: 100vh;
+}
+#hr1 {
+	height: 3px;
+	width: 50%;
+    border: none;
+}
+#list {
+	font-size: 1em; 
+	padding: var(--padall);
+}
+#wrapperLST {padding-top: 8em;}
+#intro {font-size: 4em;}
+#subIntro, #list, #htmlLST a {font-size: 2em;}
+#htmlLST #subIntro, #intro {font-weight: bold;}
+#htmlLST body {margin: 0; height: 100%; overflow: hidden;}
+/***************************/
+/********LIST COLOR*********/
+/*purple is stripes
+  #A0A0AF is lghtprple (bg)
+  #0F5FBA is lghtblu (onhover)
+  black is shadow*/
+#htmlLST body {
+	background-image: repeating-linear-gradient(45deg, transparent, transparent 15px, purple 15px, purple 16px), 
+					  repeating-linear-gradient(315deg, transparent, transparent 15px, purple 15px, purple 16px);
+	background-color: var(--lghtprple);
+}
+#hr1, #list {
+	box-shadow: 2.5px 2.5px 0.25px black;
+	background-color: purple;
+}
+#intro {text-shadow: 2.5px 2.5px 0.25px black;}
+#list {color: var(--lghtprple);}
+#subIntro, #htmlLST a {text-shadow: 1px 1px 0.25px black;}
+#htmlLST a:link, #htmlLST a:visited, #subIntro, #intro {color: purple;}
+#htmlLST a:hover {color: var(--lghtblu);}
+/***************************/
+/**********AUTO ALL*********/
+#htmlAUTO nav {padding-top: 3em;}
+#htmlAUTO body {background-color: black;}
+#htmlAUTO figcaption, #htmlAUTO h3 {color: white;}
+#vid2 {padding-top: 1em;}
